@@ -1,0 +1,21 @@
+spring:
+  ai:
+    model:
+      embedding: openai            # active OpenAI comme fournisseur d'embeddings
+    openai:
+      api-key: ${OPENAI_API_KEY}
+
+    vectorstore:
+      qdrant:
+        host: localhost            # h?te de Qdrant
+        port: 6334                 # port gRPC (par d?faut)
+        collection-name: documents # nom de la collection
+        initialize-schema: true    # cr?e la collection si besoin
+
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+# dossier o? d?poser vos fichiers avant upload (optionnel)
+app:
+  documents-dir: ./to-index
