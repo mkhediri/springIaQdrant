@@ -28,11 +28,7 @@ app:
 #max-documents: 1000            # nombre maximum de documents ? indexer
 
 
-
-
-
-
-
-
-
 # check for git rebase
+logging:
+  level:
+    fr.gouv.vitamui: DEBUG
