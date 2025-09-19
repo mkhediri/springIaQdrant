@@ -26,3 +26,13 @@ app:
       #similarity-threshold: 0.75     # seuil de similarit? pour filtrer les r?ponses
 
 #max-documents: 1000            # nombre maximum de documents ? indexer
+
+
+
+
+
+
+
+
+
+# check for git rebase
