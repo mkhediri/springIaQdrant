@@ -21,3 +21,9 @@ app:
   documents-dir: ./to-index
 
 #max-documents: 1000            # nombre maximum de documents ? indexer
+
+
+
+logging:
+  level:
+    fr.gouv.vitamui: DEBUG
