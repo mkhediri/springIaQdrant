@@ -19,6 +19,3 @@ spring:
 # dossier o? d?poser vos fichiers avant upload (optionnel)
 app:
   documents-dir: ./to-index
-
-test: git
-test2: git2
