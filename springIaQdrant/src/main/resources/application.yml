@@ -21,3 +21,4 @@ app:
   documents-dir: ./to-index
 
 test: git
+test2: git2
